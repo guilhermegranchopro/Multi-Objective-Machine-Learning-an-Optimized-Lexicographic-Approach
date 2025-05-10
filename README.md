@@ -10,6 +10,10 @@ This project is the result of an internship at the Universidade Federal de Ouro 
 
 The research conducted in this project led to a publication in the Encontro Nacional de Inteligência Artificial e Computacional (ENIAC):
 
+<p align="center">
+  <img src="Assets/Logo_BR.png" alt="ENIAC Logo" width="200"/>
+</p>
+
 - **Title:** Enhancing Multi-Objective Machine Learning with an Optimized Lexicographic Approach: Determining the Tolerance Threshold
 - **Conference:** Encontro Nacional de Inteligência Artificial e Computacional (ENIAC)
 - **Link:** [https://sol.sbc.org.br/index.php/eniac/article/view/33854](https://sol.sbc.org.br/index.php/eniac/article/view/33854)
@@ -40,7 +44,10 @@ The core of this work is demonstrated in the `original.ipynb` notebook, which in
 ```text
 ├── LICENSE
 ├── original.ipynb
+├── publication.pdf
 ├── README.md
+├── Assets/
+│   └── Logo_BR.png
 └── Finais/
     ├── Copy of Loss_Lexicográfica_PneumoniaMNIST.ipynb
     ├── Loss_Lexicográfica_BreastMNIST.ipynb
@@ -58,6 +65,20 @@ The core of this work is demonstrated in the `original.ipynb` notebook, which in
 - **`LICENSE`**: The MIT License file for this project.
 - **`README.md`**: This file.
 - **`publication.pdf`**: A local copy of the published paper (if included in the repository).
+
+## Tech Stack
+
+This project leverages the following core technologies:
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white" alt="TensorFlow"/>
+  <img src="https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white" alt="Keras"/>
+  <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
+  <img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black" alt="Matplotlib"/>
+  <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-learn"/>
+  <img src="https://img.shields.io/badge/Jupyter-%23F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white" alt="Jupyter Notebook"/>
+</p>
 
 ## Methodology
 
