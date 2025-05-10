@@ -2,6 +2,18 @@
 
 This repository explores an optimized lexicographic approach for multi-objective machine learning, focusing on determining the tolerance threshold. The primary goal is to balance multiple competing objectives, such as model accuracy and complexity (e.g., L2 regularization).
 
+## Project Context and Origin
+
+This project is the result of an internship at the Universidade Federal de Ouro Preto (UFOP) focusing on machine learning and algorithms. It served as the final project for a Bachelor's degree in Engineering Physics and Technology from Instituto Superior Técnico and contributed to academic requirements at UFOP.
+
+## Publication
+
+The research conducted in this project led to a publication in the Encontro Nacional de Inteligência Artificial e Computacional (ENIAC):
+
+- **Title:** Enhancing Multi-Objective Machine Learning with an Optimized Lexicographic Approach: Determining the Tolerance Threshold
+- **Conference:** Encontro Nacional de Inteligência Artificial e Computacional (ENIAC)
+- **Link:** [https://sol.sbc.org.br/index.php/eniac/article/view/33854](https://sol.sbc.org.br/index.php/eniac/article/view/33854)
+
 ## Project Overview
 
 In many machine learning scenarios, we aim to optimize more than one objective simultaneously. For instance, we might want a model that not only achieves high accuracy but is also simple and robust. This project investigates a lexicographic method to handle such multi-objective problems, where objectives are optimized sequentially based on their priority. A key aspect of this research is the determination of an appropriate tolerance threshold, which dictates how much degradation in a higher-priority objective is acceptable when optimizing a lower-priority one.
@@ -45,6 +57,7 @@ The core of this work is demonstrated in the `original.ipynb` notebook, which in
   - `Loss_Lexicográfica_PneumoniaMNIST.ipynb`: Experiments on the PneumoniaMNIST dataset.
 - **`LICENSE`**: The MIT License file for this project.
 - **`README.md`**: This file.
+- **`publication.pdf`**: A local copy of the published paper (if included in the repository).
 
 ## Methodology
 
